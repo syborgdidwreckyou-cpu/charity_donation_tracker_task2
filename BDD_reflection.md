@@ -1,0 +1,5 @@
+# Brief Reflection on Behaviour-Driven Development
+
+Behaviour-driven development was employed in defining the requirements as examples of the desired behaviours before assessing the functionality of the implementation. Each test case in the form of Given–When–Then is easily comprehensible by everyone. The test case named valid-donation examines the usual user experience, while the test case called negative-donation checks one particular boundary case. The total-calculation test case verifies that the acceptable donations are calculated together properly.
+The use of `behave` means linking of those comprehensible test cases to Python tests which can test the requirements continuously with the modification of the code. In case a certain modification causes failure of some of those test cases, it serves as a notification that something needs to be examined more carefully. Nevertheless, three test cases are not enough to say that the application is ready for practical purposes regarding finances. There should have been extra tests for zero values, not only numeric, very big numbers, and also for persistence, authorization, and auditing.
+
